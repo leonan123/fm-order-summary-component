@@ -9,7 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
+      
+      - name: Configure Git
+        run: |
+          git config --global user.email "leonanorth3@gmail.com"
+          git config --global user.name "leonan123"
+          git config --global credential.helper
+          
       - name: Install dependencies
         run: npm install
 
