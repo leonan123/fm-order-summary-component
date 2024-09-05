@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap" rel="stylesheet">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./src/index.css">
+</head>
+
+<body
+  class="antialiased px-4 not-italic min-h-screen bg-[url('/images/pattern-background-mobile.svg')] md:bg-[url('/images/pattern-background-desktop.svg')] bg-pale-blue bg-no-repeat bg-contain z-10 grid place-items-center">
+
+
+  <div class="max-w-96 mx-auto rounded-2xl overflow-hidden flex items-center flex-col gap-6 bg-white">
+    <img src="/images/illustration-hero.svg" class="" />
+
+    <div class="text-center px-10 pb-10 space-y-4">
+      <h3 class="text-2xl text-dark-blue font-black">Order Summary</h3>
+
+      <p class="text-desaturated-blue font-medium">
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+
+      <div class="flex items-center gap-4 p-5 bg-slate-300/35 rounded-xl">
+        <div>
+          <img src="/images/icon-music.svg" alt="music icon">
+        </div>
+
+        <div class="flex-1 text-start">
+          <p class="font-black text-dark-blue">Annual Plan</p>
+          <span class="font-medium text-desaturated-blue">$59.99/year</span>
+        </div>
+
+        <a href="#"
+          class="text-sm font-bold text-bright-blue underline hover:no-underline hover:text-bright-blue/80 transition-all">Change</a>
+      </div>
+
+
+      <button
+        class="block w-full bg-bright-blue h-12 rounded-xl text-very-pale-blue font-bold shadow-[0_10px_37px_-13px_hsl(245,75%,52%)] hover:bg-bright-blue/70 transition-colors">
+        Proceed to Payment
+      </button>
+
+      <button
+        class="block w-full h-12 rounded-xl text-desaturated-blue font-bold hover:text-dark-blue transition-colors">
+        Cancel Order
+      </button>
+    </div>
+  </div>
+
+  <div class="absolute bottom-6 left-1/2 -translate-x-1/2 text-dark-blue">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+      class="font-bold text-bright-blue underline hover:no-underline hover:text-bright-blue/80 transition-all"
+      target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/leonan123"
+      class="font-bold text-bright-blue underline hover:no-underline hover:text-bright-blue/80 transition-all"
+      target="_blank">Leonan Fernando Orth</a>.
+  </div>
+</body>
+
+</html>
