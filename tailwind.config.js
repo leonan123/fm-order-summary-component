@@ -18,7 +18,7 @@ export default {
         'pattern-mobile': "url('./images/pattern-background-mobile.svg')"
       },
       boxShadow: {
-        'button': '0px 70px 100px -32px hsl(245, 75%, 52%)',
+        'button': '',
       },
       fontFamily: {
         sans: ['Red Hat Display', 'sans-serif'],
